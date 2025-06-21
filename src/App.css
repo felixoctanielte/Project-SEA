@@ -1,0 +1,39 @@
+.navbar { display: flex; justify-content: space-between; padding: 1rem; background: teal; color: white; }
+.navbar ul { display: flex; gap: 1rem; list-style: none; }
+.navbar a { color: white; text-decoration: none; }
+
+.home, .menu, .contact, .subscription, .testimonials { padding: 2rem; }
+
+.meal-card { border: 1px solid #ccc; padding: 1rem; margin: 1rem 0; }
+.modal { position: fixed; top: 20%; left: 30%; background: white; padding: 2rem; border: 2px solid black; }
+
+.testimonial-card { border: 1px solid gray; padding: 1rem; margin: 0.5rem 0; }
+
+
+/* Navbar Styling (moved from Navbar.css) */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: teal;
+  color: white;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a.active {
+  font-weight: bold;
+  border-bottom: 2px solid white;
+}
